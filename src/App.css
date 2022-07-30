@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.top_bar_container{
+    font-family: general sans;
+    font-size: 17px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    background-color: black;
+    color: white;
+    gap: 20px;
+}
+
+.sign_out{
+    height: 35px;
+    background-color: #E6E6E9;
+    border-color: #E6E6E9;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.sign_out:hover{
+  background-color: #9999A1;
+  border-color: #9999A1;
+}
+
+.title{
+  padding-right: 33%;
+}
+
+.user_inputs{
+  font-family: general sans;
+  height: 100px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-input{
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+  color: #66666E;
+}
+
+.update_btn{
+  width: 80px;
+  height: 30px;
+  border: 1px solid #000;
+  border-style: solid;
+  background: #fff;
+  text-align: center;
+  color: #000;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.update_btn:hover{
+  background: black;
+  color: white;
+}
+
+.user_pref{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-family: general sans;
+  height: 50px;
+  font-size: 17px;
+  gap: 10px;
+}
+.pref_list{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+.pref_elem{
+  height: 30px;
+  width: 65px;
+  background-color: #E6E6E9;
+  border: 1px solid #E6E6E9;
+  border-style: solid;
+  border-radius: 5px;
+  font-style: italic;
+}
